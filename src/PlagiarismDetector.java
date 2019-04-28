@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-public class WordCount {
+public class PlagiarismDetector {
     public static void main(String[] args) {
         double threshold =  Double.valueOf(args[2]);
         String filename = args[0];
